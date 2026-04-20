@@ -1,0 +1,149 @@
+<!DOCTYPE html><html class="light" lang="ko"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<l href="htinktps://fonts.googleapis.com" rel="preconnect">
+<l href="htink crossorigin=""tps://fonts.gstatic.com" rel="preconnect">
+<l href="htinktps://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<l href="htinktps://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<l href="htinktps://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#a06900",
+                    "inverse-primary": "#a4c9ff",
+                    "inverse-on-surface": "#eff0f8",
+                    "secondary": "#5b5f61",
+                    "on-error-container": "#93000a",
+                    "surface-container-high": "#e6e8ef",
+                    "on-tertiary-fixed": "#291800",
+                    "on-secondary-fixed-variant": "#44474a",
+                    "on-secondary": "#ffffff",
+                    "surface-container-low": "#f2f3fb",
+                    "tertiary-fixed": "#ffddb4",
+                    "on-surface-variant": "#414751",
+                    "primary-fixed-dim": "#a4c9ff",
+                    "primary-fixed": "#d4e3ff",
+                    "on-secondary-fixed": "#191c1e",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#f8f9ff",
+                    "on-secondary-container": "#626567",
+                    "surface-bright": "#f8f9ff",
+                    "secondary-fixed": "#e0e3e6",
+                    "tertiary-fixed-dim": "#ffb953",
+                    "tertiary": "#7f5300",
+                    "secondary-fixed-dim": "#c4c7ca",
+                    "on-primary-fixed": "#001c39",
+                    "on-tertiary-container": "#fffbff",
+                    "on-primary-container": "#fdfcff",
+                    "error": "#ba1a1a",
+                    "on-background": "#191c21",
+                    "surface-dim": "#d8dae1",
+                    "on-primary-fixed-variant": "#004883",
+                    "on-primary": "#ffffff",
+                    "on-surface": "#191c21",
+                    "on-error": "#ffffff",
+                    "surface-container": "#ecedf5",
+                    "on-tertiary": "#ffffff",
+                    "background": "#f8f9ff",
+                    "primary": "#005da7",
+                    "surface-variant": "#e1e2e9",
+                    "outline": "#717783",
+                    "inverse-surface": "#2e3036",
+                    "secondary-container": "#e0e3e6",
+                    "outline-variant": "#c1c7d3",
+                    "surface-container-highest": "#e1e2e9",
+                    "surface-tint": "#0060ac",
+                    "on-tertiary-fixed-variant": "#633f00",
+                    "error-container": "#ffdad6",
+                    "primary-container": "#2976c7"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .ease-out-expo {
+            transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-xl docked full-width top-0 sticky z-50 no-border bg-slate-100/50 dark:bg-slate-900/50">
+<div class="flex justify-between items-center w-full px-6 py-4 max-w-screen-2xl mx-auto">
+<div class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100 font-headline" style="">날씨정보</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex items-center justify-center p-8 max-w-screen-2xl mx-auto w-full">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6 w-full">
+<!-- Button 1 -->
+<a href="1/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">1</span>
+</a>
+<!-- Button 2 -->
+<a href="2/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">2</span>
+</a>
+<!-- Button 3 -->
+<a href="3/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">3</span>
+</a>
+<!-- Button 4 -->
+<a href="4/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">4</span>
+</a>
+<!-- Button 5 -->
+<a href="5/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">5</span>
+</a>
+<!-- Button 6 -->
+<a href="6/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">6</span>
+</a>
+<!-- Button 7 -->
+<a href="7/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">7</span>
+</a>
+<!-- Button 8 -->
+<a href="8/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">8</span>
+</a>
+<!-- Button 9 -->
+<a href="9/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">9</span>
+</a>
+<!-- Button 10 -->
+<a href="10/index.html" class="aspect-square flex items-center justify-center bg-surface-container-lowest rounded-xl hover:scale-102 hover:bg-surface-container-low transition-all duration-400 ease-out-expo group" style="">
+<span class="text-6xl font-extrabold font-headline tracking-tighter text-primary group-hover:text-primary-container" style="">10</span>
+</a>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-900 full-width mt-auto border-t border-slate-200/10 tonal-transition">
+<div class="w-full py-12 px-6 flex flex-col md:flex-row justify-between items-center max-w-screen-2xl mx-auto">
+<div class="mb-6 md:mb-0">
+<div class="font-bold text-slate-900 dark:text-slate-100 font-headline mb-2" style=""><br></div>
+<p class="text-sm font-medium Manrope text-slate-500 dark:text-slate-400" style=""><br></p>
+</div>
+</div>
+</footer>
+</body></html>
