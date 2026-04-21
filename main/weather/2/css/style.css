@@ -27,7 +27,7 @@ body {
     font-size: 18px;
     margin-left: 5px;
 }
-.top .wrap .lbox article p {
+.top .wrap .lbox article > p {
     margin-top: 8px;
     font-size: 18px;
 }
@@ -37,8 +37,7 @@ body {
     margin-top: 8px;
 }
 .top .wrap .lbox article > span {
-    position: relative;
-    width: 116.95px;
+    width: 50%;
     height: 38px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 32px;
@@ -46,14 +45,10 @@ body {
 .top .wrap .lbox article span p {
     font-size: 14px;
     font-weight: 500;
-    margin-left: 8px;
-    height: 1.7em;
-    margin-left: 50px;
-}
-.top .wrap .lbox article span img {
-    height: 22px;
-    position: absolute;
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .top .wrap .lbox article span + em {
     font-style: normal;
